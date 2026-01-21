@@ -16,7 +16,7 @@ export class Produto {
   midia: string;
 
   @Column({ length: 255, nullable: false })
-  descricao: string;
+  desenvolvedora: string;
 
   @IsNotEmpty()
   @Column({ type: 'decimal', precision: 10, scale: 2, default: 0 })
